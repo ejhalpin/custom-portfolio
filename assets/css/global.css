@@ -17,6 +17,7 @@ body {
   background-color: #f7d00c;
   color: #1c1c1c;
   overflow: hidden;
+  position: relative;
 }
 
 .hr {

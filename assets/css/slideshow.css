@@ -1,7 +1,8 @@
 .slideshow {
   box-sizing: border-box;
   width: 100%;
-  height: 400px;
+  max-height: 400px;
+  height: 30vw;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -12,17 +13,22 @@
 }
 #text-pane {
   background-color: #1c1c1c;
-  padding: 20px;
+  padding: 1.2vw;
   box-sizing: border-box;
   color: #fcfcfc;
+  font-size: 1.8vw;
 }
 .pane {
-  width: 600px;
-  height: 400px;
+  max-width: 600px;
+  max-height: 400px;
+  width: 45vw;
+  height: 30vw;
 }
 .slide {
-  width: 600px;
-  height: 400px;
+  max-width: 600px;
+  max-height: 400px;
+  width: 45vw;
+  height: 30vw;
   background-color: #1c1c1c;
   position: absolute;
 }

@@ -1,0 +1,42 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+.container {
+  width: 100%;
+  flex: 1 0 auto;
+  display: flex;
+  flex-direction: column;
+  background-color: #f7d00c;
+  color: #1c1c1c;
+  overflow: hidden;
+}
+
+.hr {
+  width: 100%;
+  height: 2px;
+  background-image: linear-gradient(to left, rgba(0, 0, 0, 0), 10%, #1c1c1c 50%, 90%, rgba(0, 0, 0, 0));
+}
+
+.mt {
+  margin-top: 20px;
+}
+.mb {
+  margin-bottom: 20px;
+}
+
+.drop {
+  width: 2px;
+  height: 40px;
+  background-image: linear-gradient(to top, #1c1c1c, 50%, rgba(0, 0, 0, 0));
+  transform: rotate(10deg);
+  position: absolute;
+  border-radius: 5px;
+  top: 0;
+}

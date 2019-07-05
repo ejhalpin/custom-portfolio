@@ -14,7 +14,8 @@ body {
   flex: 1 0 auto;
   display: flex;
   flex-direction: column;
-  background-color: #f7d00c;
+  background-color: #cfba58;
+  background-image: linear-gradient(to bottom, #f0efd1, 30%, #cfba58);
   color: #1c1c1c;
   overflow: hidden;
   position: relative;

@@ -8,6 +8,9 @@
   align-items: center;
   justify-content: space-evenly;
   box-sizing: border-box;
+  position: fixed;
+  margin-top: -44px;
+  z-index: 500;
 }
 
 .nav-link {

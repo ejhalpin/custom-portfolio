@@ -64,7 +64,7 @@ const all = [
     desc:
       "A search and save UI for recipes. Backed by the Edamam Recipe API, this site allows users to search for and save recipes to a firebase real-time database. Firebase authentication allows users to persist their data across sessions and devices.",
     bullets: ["HTML 5, CSS", "jQuery", "Ajax Requests", "Giphy API", "Edamam API", "firebase real-time database", "firebase authentication"],
-    repo: "Recipe-box"
+    repo: "Project1"
   }
 ];
 var currentSlide = 0;
